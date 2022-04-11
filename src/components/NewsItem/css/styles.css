@@ -1,0 +1,20 @@
+
+
+.NewsItem{
+    border-radius: 3px;
+    background: var(--grey1);
+    padding: 20px;
+    color: var(--dark1);
+}
+
+.NewsItem h1{
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 1000;
+}
+
+.NewsItem p{
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: 400;
+}

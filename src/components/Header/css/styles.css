@@ -1,0 +1,42 @@
+
+
+.Header{
+    background: var(--grey1);
+    padding: 0 20px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.Header h3{
+    font-size: 20px;
+    font-weight: 1000;
+    font-family: sans-serif;
+    color: var(--dark1);
+    border-radius: 3px;
+}
+
+.Header ul{
+    display: flex;
+    column-gap: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    border-radius: 3px;
+}
+
+.Header li{
+    list-style: none;
+    opacity: .6;
+}
+
+.Header li a{
+    color: var(--dark1);
+    text-decoration: none;
+}
+
+.Header li:hover{
+    opacity: 1;
+}

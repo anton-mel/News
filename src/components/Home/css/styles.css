@@ -1,0 +1,21 @@
+
+
+
+.Home{
+    display: flex;
+    flex-direction: column;
+}
+
+.HomeBanner{
+    background: var(--dark1);
+    color: #fff;
+    border-radius: 3px;
+    padding: 80px 20px;
+}
+
+.NewsList{
+    display: grid;
+    padding: 20px 0;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}

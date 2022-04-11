@@ -1,0 +1,14 @@
+:root{
+  --dark1: #333;
+  --grey1: #eee;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+}
+
+.AppContainer{
+  padding: 20px 0;
+  width: 740px;
+}
